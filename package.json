@@ -1,0 +1,55 @@
+{
+  "name": "breakdance-checklist",
+  "description": "Plugin that adds checklist rendering support to breakdance, similar to task lists in github-flavored-markdown.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/breakdance-checklist",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/breakdance-checklist",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/breakdance-checklist/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "get-value": "^2.0.6"
+  },
+  "devDependencies": {
+    "breakdance": "^0.1.3",
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "breakdance",
+    "checklist",
+    "generategenerator"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
+  }
+}
