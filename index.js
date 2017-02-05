@@ -4,6 +4,8 @@ var get = require('get-value');
 
 module.exports = function(options) {
   return function(breakdance) {
+
+    // overrides the built-in `input` handler
     breakdance.set('input', function(node) {
       var type = get(node, 'attribs.type');
       var prefix = '';
@@ -15,7 +17,7 @@ module.exports = function(options) {
       if (!this.isInside(node.parent, 'li')) {
         prefix = '* ';
 
-        var cls = get(node.parent.attribs, 'class');
+        var cls = get(node, 'parent.attribs.class');
         var m = /checkbox\s*(checked|active|enabled)?/.exec(cls);
         if (m) {
           type = m[1] ? 'checkbox checked' : 'checkbox';
