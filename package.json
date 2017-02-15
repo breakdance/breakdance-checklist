@@ -1,7 +1,7 @@
 {
   "name": "breakdance-checklist",
   "description": "Plugin that adds checklist rendering support to breakdance, similar to task lists in github-flavored-markdown.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/breakdance/breakdance-checklist",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "breakdance/breakdance-checklist",
