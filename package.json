@@ -23,7 +23,7 @@
     "get-value": "^2.0.6"
   },
   "devDependencies": {
-    "breakdance": "^0.1.7",
+    "breakdance": "^0.2.0",
     "gulp-format-md": "^0.1.11",
     "mocha": "^3.2.0"
   },
@@ -52,8 +52,8 @@
     ],
     "related": {
       "list": [
-        "breakdance-util",
-        "breakdance-reflinks"
+        "breakdance-reflinks",
+        "breakdance-util"
       ]
     },
     "reflinks": [
